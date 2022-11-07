@@ -79,6 +79,21 @@ _G.packer_plugins = {
     path = "/Users/wuguanchao/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  fzf = {
+    loaded = true,
+    path = "/Users/wuguanchao/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf-lua"] = {
+    loaded = true,
+    path = "/Users/wuguanchao/.local/share/nvim/site/pack/packer/start/fzf-lua",
+    url = "https://github.com/ibhagwan/fzf-lua"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/wuguanchao/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/wuguanchao/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

@@ -38,6 +38,8 @@ map("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt)
 map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
+map("n", "<C-p>", "<cmd>lua require('fzf-lua').files()<CR>", opt)
+
 -- 插件快捷键
 local pluginKeys = {}
 

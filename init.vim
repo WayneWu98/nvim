@@ -5,3 +5,4 @@
 
 :lua require("plugin-config.nvim-tree")
 :lua require("plugin-config.bufferline")
+:lua require("plugin-config.lualine")

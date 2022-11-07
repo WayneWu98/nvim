@@ -4,8 +4,12 @@ packer.startup({
   function(use) 
     use ("wbthomason/packer.nvim")
     use("ful1e5/onedark.nvim")
-    use ({"nvim-tree/nvim-tree.lua", requires = {"nvim-tree/nvim-web-devicons"}})
+    use ({ "nvim-tree/nvim-tree.lua", requires = {"nvim-tree/nvim-web-devicons"}})
     use({ "akinsho/bufferline.nvim", requires = { "nvim-tree/nvim-web-devicons", "moll/vim-bbye" }})
+    use({ "nvim-lualine/lualine.nvim", requires = { "nvim-tree/nvim-web-devicons" } })
+    use({ 'junegunn/fzf', run = './install --bin' })
+    use { 'ibhagwan/fzf-lua', requires = { 'nvim-tree/nvim-web-devicons' }
+}
   end,
   config = {
     display = {
